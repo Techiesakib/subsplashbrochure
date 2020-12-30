@@ -1,0 +1,2112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* header section start  */
+
+header {
+    display: none;
+}
+
+header.sticky {
+    height: 100px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header.sticky .nav-link {
+    color: #4F64FF;
+}
+
+header.sticky .nav-link:hover {
+    color: #000;
+    transition: .5s;
+}
+
+
+/* navigation here  */
+
+.navbar {
+    background: #4F64FF;
+}
+
+.search {
+    margin-left: 8px;
+}
+
+.navbar-nav {
+    margin-left: 70px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #4F64FF;
+    margin: 0px 5px;
+}
+
+.nav-link:hover {
+    color: #000;
+    transition: .5s;
+}
+
+
+/* home start */
+
+#home {
+    background: #4F64FF;
+}
+
+.hole {
+    padding-bottom: 70px;
+}
+
+
+/* logo here  */
+
+.logo {
+    margin-left: 45px;
+    padding-top: 45px;
+}
+
+.logo span {
+    font-size: 20px;
+}
+
+.logo sup {
+    top: -1.5em;
+}
+
+.brand {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: .2em;
+}
+
+.brand:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*home description here  */
+
+.home_description {
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.grows {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.3em;
+}
+
+.ultimate {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+
+/* home image  */
+
+.home_image img {
+    margin-left: 3px;
+}
+
+
+/* header section end  */
+
+
+/* why subsplash section start  */
+
+#why_subsplash {
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+
+.why h1 {
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+/* reason part  */
+
+.reason {
+    padding-top: 50px;
+}
+
+.hours_image img {
+    margin-left: 100px;
+}
+
+.hours_description h5,
+p {
+    text-align: center;
+}
+
+.percent_image img {
+    margin-left: 55px;
+}
+
+.percent_description h5,
+p {
+    text-align: center;
+}
+
+.thousand_image img {
+    margin-left: 115px;
+}
+
+.thousand_description h5,
+p {
+    text-align: center;
+}
+
+.hours_description,
+.percent_description,
+.thousand_description {
+    padding-top: 40px;
+}
+
+.hours_description p,
+.percent_description p,
+.thousand_description p {
+    padding-top: 30px;
+    color: #525254;
+    font-size: 18px;
+}
+
+
+/* why subsplash section end  */
+
+
+/* subsplash story section start */
+
+.subsplash_story {
+    padding-top: 190px;
+    /* background: aqua; */
+}
+
+.story_heading h1 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 900;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.story_details {
+    color: #525254;
+    font-size: 21px;
+    line-height: 1.8em;
+    letter-spacing: 0.05em;
+    font-weight: 350;
+}
+
+
+/* icon part  */
+
+.icon_first {
+    position: relative;
+    top: -564px;
+    left: 85px;
+}
+
+.icon_second {
+    position: relative;
+    top: -550px;
+    left: 300px;
+}
+
+.icon_third {
+    position: relative;
+    top: -525px;
+    left: 480px;
+}
+
+.icon_four {
+    position: relative;
+    top: -524px;
+    left: 640px;
+}
+
+.icon_five {
+    position: relative;
+    top: -415px;
+    right: 410px;
+}
+
+.icon_six {
+    position: relative;
+    top: -430px;
+    right: 310px;
+}
+
+.icon_seven {
+    position: relative;
+    top: -390px;
+    left: 200px;
+}
+
+.icon_eight {
+    position: relative;
+    top: -280px;
+    left: 245px;
+}
+
+.icon_nine {
+    position: relative;
+    top: -145px;
+    right: 850px;
+}
+
+.icon_ten {
+    position: relative;
+    top: -100px;
+    left: 111px;
+}
+
+.icon_eleven {
+    position: relative;
+    top: 30px;
+    right: 870px;
+}
+
+.icon_twelve {
+    position: relative;
+    top: -60px;
+    left: 500px;
+}
+
+.icon_thirteen {
+    position: relative;
+    top: -70px;
+    left: 715px;
+}
+
+.icon_fourteen {
+    position: relative;
+    top: 32px;
+    right: 170px;
+}
+
+.icon_fifteen {
+    position: relative;
+    top: 28px;
+}
+
+.icon_sixteen {
+    position: relative;
+    top: 8px;
+    left: 526px;
+}
+
+
+/* subsplash story section end */
+
+
+/* guaranteed quality section start */
+
+.quality {
+    margin-left: 30px;
+}
+
+.guaranteed {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.guarantee {
+    color: #000;
+    font-size: 37px;
+    font-weight: 900;
+    margin-top: -20px;
+}
+
+.focus {
+    font-size: 19px;
+    color: #525254;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+/* guaranteed quality section end */
+
+
+/* testimonial section start */
+
+#testimonial {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.saying h1 {
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.saying p {
+    color: #525254;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.testimonials {
+    padding-top: 60px;
+}
+
+.testimonials p {
+    font-size: 18px;
+    color: #525254;
+}
+
+.kenney {
+    margin-left: 100px;
+}
+
+.ministry {
+    float: right;
+    margin-right: 90px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.chandler {
+    margin-left: 100px;
+}
+
+.village {
+    float: right;
+    margin-right: 69px;
+    margin-top: -45px;
+    color: #000;
+}
+
+.hoover {
+    margin-left: 100px;
+}
+
+.new {
+    float: right;
+    margin-right: 116px;
+    margin-top: 13px;
+    color: #000;
+}
+
+.hankings {
+    margin-left: 100px;
+}
+
+.corn {
+    float: right;
+    margin-right: 27px;
+    margin-top: 13px;
+    color: #000;
+}
+
+.evan {
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 770px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    letter-spacing: .2em;
+}
+
+.button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* testimonial section end */
+
+
+/* guaranteed service section start */
+
+#service {
+    padding-top: 60px;
+}
+
+.service h1 {
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.service p {
+    font-size: 21px;
+    color: #525254;
+    padding-top: 30px;
+    line-height: 1.9em;
+    font-weight: 300;
+}
+
+.worker {
+    padding-top: 60px;
+    margin-left: 115px;
+}
+
+.ladies img {
+    width: 170px;
+}
+
+
+/* guaranteed service section end */
+
+
+/* expect section start  */
+
+#expect {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.result h1 {
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.result p {
+    font-size: 22px;
+    color: #525254;
+    padding-top: 20px;
+    line-height: 1.9em;
+    font-weight: 300;
+}
+
+.expectation {
+    padding-top: 30px;
+}
+
+.giving {
+    margin-right: 40px;
+}
+
+.reach {
+    margin-left: 40px;
+}
+
+.giving_image img {
+    margin-left: 55px;
+    margin-top: -10px;
+}
+
+.time_image img {
+    margin-left: 85px;
+}
+
+.reach_image img {
+    margin-left: 60px;
+}
+
+.giving_description h5,
+.time_description h5,
+.reach_description h5 {
+    color: #000;
+}
+
+.giving_description p,
+.time_description p,
+.reach_description P {
+    color: #525254;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.giving_description,
+.time_description,
+.reach_description {
+    padding-top: 30px;
+}
+
+.giving_description {
+    padding-top: 37px;
+}
+
+.giving_description p {
+    padding-top: 23px;
+}
+
+.giving_description h5,
+p {
+    text-align: center;
+}
+
+.time_description h5,
+p {
+    text-align: center;
+}
+
+.reach_description h5,
+p {
+    text-align: center;
+}
+
+
+/* expect section end  */
+
+
+/* engage section start  */
+
+#engage {
+    background: #4F64FF;
+    padding-top: 40px;
+}
+
+.engage_description h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.engage_description p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.grow {
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+
+/* engage image  */
+
+.engage_image {
+    padding-top: 20px;
+}
+
+.tablet img {
+    margin-left: 25px;
+}
+
+.web-tools img {
+    margin-left: 25px;
+}
+
+.live img {
+    margin-left: 25px;
+}
+
+.give img {
+    margin-left: 35px;
+}
+
+.tv img {
+    margin-left: 25px;
+}
+
+.tablet h6,
+.give h6,
+.web-tools h6,
+.live h6,
+.tv h6 {
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* engage section end  */
+
+
+/* beyond section start  */
+
+#beyond {
+    padding-top: 40px;
+}
+
+.beyond_description {
+    padding-top: 40px;
+}
+
+.beyond_description h1 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+.beyond_description p {
+    font-size: 19px;
+    padding-top: 30px;
+    color: #525354;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.saif {
+    padding: 30px 20px;
+    box-shadow: 0px -2px 15px -6px #535254;
+}
+
+
+/* beyond section end  */
+
+
+/* app section start  */
+
+#app {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.app {
+    font-size: 50px;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+}
+
+.watch {
+    margin-left: 435px;
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.app_one p,
+.app_two p,
+.app_three p,
+.app_four p {
+    color: #525254;
+    padding-top: 25px;
+}
+
+
+/* app section end  */
+
+
+/* delivery section start */
+
+#delivery {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.mobile_apps h1 {
+    font-size: 45px;
+    color: #000;
+    font-weight: 900;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.mobile_apps h5 {
+    color: #000;
+    margin-left: 50px;
+}
+
+.mobile_apps p {
+    color: #525254;
+    font-size: 18px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.web_tools {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.web_tools img {
+    margin-left: 20px;
+}
+
+.web_tools h5 {
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+.web_tools p {
+    color: #525254;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.the {
+    padding-left: 630px;
+    font-size: 18px;
+}
+
+.the:hover {
+    color: #4F64FF;
+    text-decoration: none;
+}
+
+
+/* delivery section end */
+
+
+/* item section start  */
+
+#items .col-sm {
+    border-right: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+#items .media {
+    border-bottom: 2px solid silver;
+    border-right: none;
+}
+
+#items .medium {
+    border-bottom: none;
+}
+
+.blog-reader_image img {
+    margin-left: 25px;
+}
+
+.blog_reader p {
+    color: #525254;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+
+/* item section end  */
+
+
+/* dashboard section start  */
+
+#dashboard {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.dashboard-description h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.dashboard-description p {
+    font-size: 19px;
+    color: #535254;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.simple_dash h5 {
+    text-align: center;
+    color: #000;
+}
+
+.simple_dash {
+    box-shadow: 0px -2px 15px -6px #535254;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+.sam_one {
+    margin-left: 30px;
+}
+
+.sam_two {
+    margin-left: 30px;
+}
+
+.sam_three {
+    margin-left: 20px;
+}
+
+
+/* dashboard section end  */
+
+
+/* engagement_next section start  */
+
+#engagement_next {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.engagement_next_description h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.engagement_next_description p {
+    font-size: 19px;
+    color: #535254;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.available h5 {
+    color: #000;
+    margin-left: 20px;
+}
+
+.available ul li {
+    margin-left: 40px;
+    color: #535254;
+    font-size: 18px;
+}
+
+.connection {
+    margin-top: 30px;
+    padding: 30px 20px;
+    box-shadow: 0px -2px 15px -6px #535254;
+}
+
+
+/* engagement_next section end  */
+
+
+/* keep it section start  */
+
+#keep_it {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.keep_it_description h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+    margin-left: 30px;
+}
+
+.work {
+    font-size: 22px;
+    text-align: left;
+    color: #535254;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.embeds {
+    font-size: 18px;
+    color: #535254;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.biggest {
+    margin-top: 115px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #535254;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.koma {
+    font-size: 65px;
+    color: #4F64FF;
+}
+
+.toolkit {
+    color: #4F64FF;
+    font-weight: 500;
+}
+
+.hub {
+    margin-left: 28px;
+}
+
+.ryan {
+    float: right;
+    margin-top: 10px;
+    margin-right: -15px;
+}
+
+.keeps {
+    margin-left: 700px;
+}
+
+
+/* keep it section end  */
+
+
+/* media section start  */
+
+#media {
+    padding-top: 50px;
+}
+
+.media_description h1 {
+    font-size: 45px;
+    color: #000;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.never {
+    font-weight: 300;
+    font-size: 22px;
+    color: #535254;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.library {
+    font-size: 18px;
+    color: #535254;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.media_list {
+    background: #000;
+    padding: 50px 40px;
+}
+
+.media_list h5 {
+    color: #fff;
+}
+
+.media_list ul li {
+    color: #fff;
+}
+
+
+/* media section end  */
+
+
+/* live section  start */
+
+#live {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #1F1F1F;
+}
+
+.live_description {
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.live_description h5 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.live_description h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.live_description p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.learn {
+    padding: 15px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+}
+
+.learn:hover {
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    font-weight: 500;
+    transition: .5s;
+}
+
+
+/* live section  end */
+
+
+/* live section part two start */
+
+#live_two {
+    padding-top: 60px;
+}
+
+.live_two_description {
+    margin-left: 30px;
+}
+
+.live_two_img {
+    margin-top: 40px;
+}
+
+.live_two_description h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+}
+
+.stream {
+    color: #535254;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.simulate,
+.helps {
+    font-size: 18px;
+    color: #535254;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.add {
+    font-size: 13px;
+    color: #535254;
+    text-align: left;
+}
+
+.manage {
+    padding: 50px 30px;
+}
+
+.create {
+    margin-top: 35px;
+}
+
+.soon {
+    color: #535254;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+
+/* live section part two end */
+
+
+/* messaging section start  */
+
+#messaging {
+    background: #4A5DE5;
+}
+
+.messaging_description {
+    padding-top: 215px;
+    margin-left: 30px;
+}
+
+.messaging_description h5 {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.messaging_description h1 {
+    font-size: 41px;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.messaging_description p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    text-align: left;
+}
+
+.sms {
+    background: none;
+    margin-left: 0px;
+    border: 2px solid #fff;
+}
+
+.sms:hover {
+    background: #000;
+    transition: .5s;
+}
+
+.message_full {
+    margin-left: 18px;
+}
+
+.message_one {
+    margin-top: 270px;
+}
+
+.message_two {
+    margin-top: 50px;
+}
+
+.message_three {
+    margin-top: 39px;
+}
+
+.message_five {
+    margin-top: 25px;
+}
+
+
+/* messaging section end */
+
+
+/* message section part two start */
+
+#message_two {
+    padding-top: 100px;
+}
+
+.message_two_description {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.message_two_description h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #000;
+}
+
+.authentic {
+    font-size: 18px;
+    font-weight: 300;
+    color: #535254;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.powerfull {
+    font-size: 18px;
+    color: #535254;
+    text-align: left;
+}
+
+.plans {
+    font-size: 13px;
+    color: #535254;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.message_two_image img {
+    margin-left: 120px;
+}
+
+.custom {
+    margin-top: 0px;
+}
+
+
+/* message section part two end */
+
+
+/* snappages section start  */
+
+#snappage {
+    padding-top: 60px;
+}
+
+.snap_description {
+    margin-left: 30px;
+}
+
+.snap_description h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: 900;
+}
+
+.marks {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.beauty {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #535254;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.easy {
+    font-size: 18px;
+    color: #535254;
+    text-align: left;
+}
+
+.snaps {
+    margin-top: 30px;
+}
+
+.snapbutton {
+    padding: 20px 50px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    letter-spacing: 0.2em;
+    margin-left: 10px;
+}
+
+.snapbutton:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+/* snappages section end  */
+
+
+/* package section start  */
+
+#package {
+    padding-top: 30px;
+}
+
+.package_description {
+    padding-top: 80px;
+    margin-left: 30px;
+}
+
+.package_description h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+}
+
+.include {
+    font-size: 22px;
+    color: #535254;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.increase {
+    font-size: 18px;
+    color: #535254;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.package_image img {
+    margin-top: 50px;
+}
+
+.community {
+    padding: 20px 50px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    letter-spacing: 0.2em;
+    margin-left: 10px;
+}
+
+.community:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.price_list {
+    box-shadow: 0px -2px 15px -6px #535254;
+    padding: 40px 40px;
+}
+
+.pricing_unorder h5 {
+    color: #000;
+}
+
+.pricing_unorder ul li {
+    color: #535254;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+
+/* package section end  */
+
+
+/* subsplash giving section start  */
+
+#app_giving {
+    padding: 50px 0;
+}
+
+.app_giving_description {
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.in {
+    font-size: 50px;
+    color: #000;
+    font-weight: 900;
+}
+
+.truly {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #535254;
+    text-align: left;
+}
+
+.since {
+    margin-top: 115px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #535254;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.thirteen {
+    color: #4F64FF;
+    font-weight: 700;
+}
+
+.tims {
+    margin-left: 32px;
+}
+
+.tim {
+    float: right;
+    margin-top: 15px;
+    margin-right: 154px;
+}
+
+
+/* subsplash giving section end  */
+
+
+/* give on the web section  start */
+
+#give_on {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.give_on_description {
+    margin-left: 30px;
+}
+
+.on {
+    font-size: 45px;
+    font-weight: 900;
+    color: #000;
+}
+
+.same {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #535254;
+    text-align: left;
+}
+
+.love {
+    margin-top: 115px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #535254;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.dian {
+    margin-top: 10px;
+}
+
+.dawson {
+    float: right;
+    margin-top: 15px;
+    margin-right: 63px;
+}
+
+
+/* give on the web section end */
+
+
+/* grow curve section  start */
+
+#grow_curve {
+    padding-bottom: 100px;
+}
+
+.grow_curve_description {
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.grow_curve_description h1 {
+    font-size: 49px;
+    font-weight: 900;
+    color: #000;
+}
+
+.rates {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #535254;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+}
+
+.believe {
+    font-size: 18px;
+    color: #535254;
+    margin-bottom: 150px;
+    text-align: left;
+}
+
+
+/* grow curve section end */
+
+
+/* exclusive section start */
+
+#exclusive_guarantee {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.exclusive_guarantee_description {
+    margin-left: 30px;
+}
+
+.exclusives {
+    font-size: 39px;
+    font-weight: 900;
+    color: #000;
+}
+
+.fuel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #535254;
+    font-weight: 300;
+    text-align: left;
+    font-size: 20px;
+}
+
+.passion {
+    font-size: 18px;
+    color: #535254;
+    text-align: left;
+}
+
+.donors {
+    font-size: 18px;
+    color: #535254;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    text-align: left;
+}
+
+
+/* exclusive section end */
+
+
+/* made simple section start*/
+
+.made_back {
+    background-image: url(images/made.jpg);
+    background-size: cover;
+    padding: 100px 50px 100px 30px;
+}
+
+.made_left {
+    margin-left: 30px;
+}
+
+.made {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.church {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.offer,
+.was,
+.user,
+.have {
+    color: #fff;
+}
+
+.offer,
+.user {
+    margin-left: 190px;
+}
+
+.was,
+.have {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.have {
+    margin-bottom: 60px;
+}
+
+.made_right img {
+    margin-left: 290px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.watch_list {
+    padding-top: 140px;
+}
+
+.clock h6 {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.story {
+    padding: 20px 60px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    letter-spacing: 0.2em;
+    margin-left: 60px;
+}
+
+.story:hover {
+    text-decoration: none;
+    transition: .5s;
+    color: #fff;
+}
+
+
+/* made simple section end */
+
+
+/* connect section start  */
+
+#connect_system {
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.connect_description {
+    margin-left: 30px;
+}
+
+.your {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+}
+
+.that {
+    font-size: 18px;
+    color: #535254;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.with {
+    color: #535254;
+    font-size: 18px;
+    text-align: left;
+}
+
+.connect_image img {
+    margin-top: 60px;
+}
+
+
+/* connect section end  */
+
+
+/* simple icon section start */
+
+#logos {
+    padding: 50px 0px;
+}
+
+.logo_giving {
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.logo_list h6 {
+    color: #000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.logo_list img {
+    margin-left: 45px;
+}
+
+#logos .col-sm {
+    padding: 20px 20px;
+}
+
+
+/* simple icon section end */
+
+
+/* leaders section start */
+
+#leader {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#leader h1 {
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.decade {
+    font-size: 22px;
+    color: #535254;
+    font-weight: 300;
+}
+
+.leader_comment {
+    padding-top: 40px;
+}
+
+.trust {
+    float: right;
+    width: 60%;
+}
+
+.trust p {
+    font-size: 15px;
+    color: #535254;
+    text-align: left;
+}
+
+.spans {
+    font-size: 22px;
+    color: #535254;
+    font-weight: 350;
+}
+
+
+/* leaders section end */
+
+
+/* pricing section start  */
+
+#pricing_cart {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our_price h1 {
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.mission {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.mission,
+.other {
+    color: #535254;
+    text-align: left;
+}
+
+.other {
+    margin-top: 115px;
+    margin-bottom: 60px;
+}
+
+.base,
+.an {
+    color: #535254;
+    font-size: 12px;
+    margin-top: 80px;
+    text-align: left;
+}
+
+.brand_list {
+    margin-top: 70px;
+}
+
+.brand_list p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 56px;
+    text-align: right;
+}
+
+.corm {
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+    letter-spacing: 0.2em;
+    font-weight: 900;
+}
+
+.core,
+.prime,
+.primium,
+.pro {
+    box-shadow: 0px -2px 13px -6px #535254;
+    border-radius: 10px;
+}
+
+.core p,
+.prime p,
+.primium p,
+.pro p {
+    padding: 10px 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dashed {
+    margin-left: 55px;
+}
+
+.checkmark {
+    margin-left: 60px;
+}
+
+.bill {
+    color: #4F64FF;
+}
+
+.nine {
+    font-size: 30px;
+}
+
+#cost {
+    margin-top: 110px;
+}
+
+
+/* pricing section end */
+
+
+/* partner benifits section start  */
+
+.our_prices {
+    background: #4F64FF;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+
+.our_prices h1 {
+    font-size: 41px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.ask {
+    margin-top: 80px;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+}
+
+.commited {
+    text-align: left;
+}
+
+.commited h5,
+.commiten h5 {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.commited ul li,
+.commiten ul li {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.commiten {
+    margin-top: 50px;
+}
+
+.commiten ol li {
+    color: #fff;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+.saved {
+    font-size: 12px;
+    color: #000;
+    margin-top: 170px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.savings {
+    color: #4F64FF;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.one {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.circle {
+    background: #4F64FF;
+    height: 140px;
+    width: 145px;
+    border-radius: 85px;
+    color: #fff;
+    border: 2px solid #fff;
+    position: relative;
+    top: -420px;
+    left: 230px;
+}
+
+.circle p {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.thirty {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.percents {
+    font-size: 25px;
+}
+
+.off {
+    font-size: 15px;
+}
+
+
+/* partner benifits section end */
+
+
+/* add on section start  */
+
+#add_on {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.sub_live h5,
+.sub_message h5 {
+    text-align: center;
+    color: #000;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+}
+
+.sub_live p,
+.sub_message p {
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tools {
+    font-size: 50px;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.table {
+    box-shadow: 0px 5px 20px -6px #535254;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 1px;
+}
+
+.table table {
+    margin: auto;
+}
+
+.sakib {
+    margin-bottom: 71px;
+}
+
+.table h6 {
+    color: #4F64FF;
+    font-weight: 700;
+}
+
+.table td {
+    color: #000;
+    font-weight: 500;
+}
+
+.mo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.up {
+    background: #F2F2F5;
+}
+
+.paraghraph {
+    color: silver;
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 0.4em;
+}
+
+
+/* add on section end  */
+
+
+/* getin touch section start  */
+
+#get_in {
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+
+.questions {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    color: silver;
+    letter-spacing: .3em;
+}
+
+.regester {
+    font-size: 20px;
+}
+
+.any {
+    font-size: 22px;
+    margin-top: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    line-height: 1.9em;
+    color: #535254;
+}
+
+.touch {
+    padding: 20px 40px;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-left: 460px;
+    margin-top: 30px;
+}
+
+.touch:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+/* getin touch section end  */
